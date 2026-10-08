@@ -12,7 +12,7 @@ jobs:
               uses: actions/checkout@v4
 
             - name: run validate employee
-              run:  python validata_emp.pa
+              run:  python validata_emp.py
 
             - name: move data to target 
               run: echo 'move data'
